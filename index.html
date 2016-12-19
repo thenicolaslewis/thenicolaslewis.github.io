@@ -1,64 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-  
- <style>
-#pButton{
-	height:60px; 
-	width: 60px;
-	border: none;
-	background-size: 50% 50%;
-	background-position: center;
-}
-.play{background: url(thenicolaslewis.github.io/Playbutton.png) no-repeat;}
-.pause{background: url(thenicolaslewis.github.io/Playbutton.png') no-repeat;}
-</style>
-  
 
-
-// variable to store HTML5 audio element
-var music = document.getElementById('music');
- 
-function playAudio() {
-	if (music.paused) {
-		music.play();
-		pButton.className = "";
-		pButton.className = "pause";
-	} else { 
-		music.pause();
-		pButton.className = "";
-		pButton.className = "play";
-	}
-}
- 
-<button id="pButton" class="play" onclick="playAudio()"></button> 
-
-
-<style>
-#timeline{
-	width: 400px;
-	height: 20px;
-	background: #4200f7;
-	margin-top: 20px;
-	float: left;
-	border-radius: 15px;
-}
- 
-#playhead{
-	width: 18px;
-	height: 18px;
-	border-radius: 50%;
-	margin-top: 1px;
-	background: rgba(0, 255, 196, 0.82);
-}
-</style>
- 
-<div id="audioplayer">
-	<button id="pButton" class="play" onclick="play()"></button>
-	<div id="timeline">
-		<div id="playhead"></div>
-	</div>
-</div>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -76,7 +19,7 @@ function playAudio() {
   img {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 60%;
 }
 
 </style>
