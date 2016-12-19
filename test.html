@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 
+ <script src="/audiojs/audio.min.js"></script>
+  
+  <script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+    
+</script> 
+  
 <head>
   <title> Test </title>
 
@@ -8,13 +17,7 @@
 
 <body>
   
-<script src="/audiojs/audio.min.js"></script>
-  
-  <script>
-  audiojs.events.ready(function() {
-    var as = audiojs.createAll();
-  });
-</script>
+
   
   <audio src="/mp3/juicy.mp3" preload="auto" />
 
