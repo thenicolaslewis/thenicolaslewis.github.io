@@ -8,11 +8,15 @@
 
 <body>
   
-  <!-- SCM Music Player http://scmplayer.net -->
-<script type="text/javascript" src="http://scmplayer.net/script.js" 
-data-config="{'skin':'skins/black/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'poop','url':'https://www.youtube.com/watch?v=YQ3pzmIGqNE&ab_channel=JadeRose'}]}" ></script>
-<!-- SCM Music Player script end -->
-
+<script src="/audiojs/audio.min.js"></script>
+  
+  <script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
+  
+  <audio src="/mp3/juicy.mp3" preload="auto" />
 
 
 hi poppy, youre coolasfaf boosdgn
