@@ -72,6 +72,13 @@ if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)
     <param name="FlashVars" value="mp3=%3Cobject%20type%3D%22application/x-shockwave-flash%22%20data%3D%22zplayer.swf%3Fmp3%3Dthenicolaslewis.github.io/Forest%20Fire%20Prelude%20-%20Mix%20Test1.mp3%26c1%3D000000%26autoplay%3D1%22%20width%3D%22200%22%20height%3D%2220%22/%3E%3Cparam%20name%3D%22movie%22%20value%3D%22zplayer.swf%3Fmp3%3Dthenicolaslewis.github.io/Forest%20Fire%20Prelude%20-%20Mix%20Test1.mp3%26c1%3D000000%26autoplay%3D1%22%20/%3E%3C/object%3E" />
 </object>
   
+  {block:Audio}
+<div id= "audioplayer">{AudioPlayerWhite}</div>
+{block:AlbumArt}
+<img src="{AlbumArtURL}" width="100">
+{/block:AlbumArt}
+{/block:Audio}
+  
   </body>
 
 </html>
