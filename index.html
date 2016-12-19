@@ -35,7 +35,28 @@
 
 <body>
   
+  <div id="mp3">
+<script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','550','height','400','title','Mp3 Player','src','file:///Macintosh HD/Users/phwd/Desktop/mp3player','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','file:///Macintosh HD/Users/phwd/Desktop/mp3player' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="550" height="400" title="Mp3 Player">
+    <param name="movie" value="file:///Macintosh HD/Users/phwd/Desktop/mp3player.swf" />
+    <param name="quality" value="high" />
+    <embed src="file:///Macintosh HD/Users/phwd/Desktop/mp3player.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="550" height="400"></embed>
+  </object></noscript>
+
+  
 <object type="application/x-shockwave-flash" data="zplayer.swf?mp3=thenicolaslewis.github.io/Forest Fire Prelude - Mix Test1.mp3&c1=000000&autoplay=1" width="200" height="20"/><param name="movie" value="zplayer.swf?mp3=thenicolaslewis.github.io/Forest Fire Prelude - Mix Test1.mp3&c1=000000&autoplay=1" /></object>  
+  </div>
+
+<p><script type="text/javascript" language="javascript">
+<!--
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)))
+{
+     document.getElementById("mp3").innerHTML = "<audio autoplay=\"autoplay\" controls=\"controls\"><source src=\"mp3player.mp3\" /></audio>";
+}
+-->
+</script></p>
+
 <div class="center">
    <IMG src="Nick Rabbit Girl.jpg">
 </div>
