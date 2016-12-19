@@ -21,6 +21,31 @@
     margin: auto;
     width: 60%;
 }
+  
+  var activeSong;
+function play(id){
+    activeSong = document.getElementById(id);
+    activeSong.play();
+
+    var percentageOfVolume = activeSong.volume / 1;
+    var percentageOfVolumeMeter = document.getElementById('volumeMeter').offsetWidth * percentageOfVolume;
+    
+    document.getElementById('volumeStatus').style.width = Math.round(percentageOfVolumeSlider) + "px";
+}
+function pause(){
+    activeSong.pause();
+}
+//Does a switch of the play/pause with one button.
+function playPause(id){
+   
+    activeSong = document.getElementById(id);
+  
+    if (activeSong.paused){
+         activeSong.play();
+    }else{
+         activeSong.pause();
+    }
+}
 
 </style>
   
