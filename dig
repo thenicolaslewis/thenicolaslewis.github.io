@@ -1,1 +1,1 @@
-$ dig example.com +noall +answer
+$ dig dancerdancer.space +noall +answer
