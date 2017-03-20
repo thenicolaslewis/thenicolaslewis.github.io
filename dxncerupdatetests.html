@@ -76,32 +76,16 @@
     <form action="https://open.spotify.com/album/2e0pZ8brXdjHLwp9V0JLCy" target="_blank">
   <input type="image" src="" alt="Submit" width="5%" target="_blank" >
        </form> 
-
-       <div class="container">
-  <form action="/action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-<br>
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-<br>
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-    
-    <br>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-<br>
-  </form>
-</div>
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
        
   </body>
 
