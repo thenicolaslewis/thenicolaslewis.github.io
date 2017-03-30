@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+  <title> contact </title>
+<link rel="icon" href="thenicolaslewis.github.io/faviconpoppies.jpg">
+  </head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+p.sansserif {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+	
+	p {
+    font-size: 40px;
+}
+  body {
+    background-color: #000000;
+  }
+  
+  .center {
+    padding: 70px 0;
+    border: 3px solid black;
+}
+  img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+Body {
+ color: #CCCCCC 
+}
+  
+	
+	  div {
+    text-align: justify;
+}
+div img {
+    display: inline-block;
+    width: 100px;
+  
+}
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+	
+	a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+</style>
+  
+
+  
+
+<body>
+	
+		<br>
+ <div id="wrapper" style="text-align: center">    
+
+	    <a href="http://dxncer.co.uk/">
+   <img src="dxncerpoppieslogonew.png" width =10%>
+	   </a> 
+	</div>
+   
+	    
+	    <br><br>   <br><br>
+
+
+<center> 
+	
+	<!--
+ <div id="wrapper" style="text-align: center">    
+    <div id="yourdiv" style="display: inline-block;">
+	<!-- Do not change the code!
+<a id="foxyform_embed_link_862379" href="http://www.foxyform.com/">foxyform</a>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://www.foxyform.com/js.php?id=862379&sec_hash=72dc466d19a&width=350px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script>
+<!-- Do not change the code! 
+	 </div> -->
+	 
+	  <div id="wrapper" style="text-align: center">    
+    <div id="yourdiv" style="display: inline-block;">
+	 <script type="text/javascript" src="https://form.jotformeu.com/jsform/70857152009354"></script>
+		  </div>
+	
+	
+	 <div id="wrapper" style="text-align: center">    
+    <div id="yourdiv" style="display: inline-block;">
+	 <!--   <a href="https://dxncer.bandcamp.com/releases" target="_blank">
+      <img src="BUYCROPDXCNER.jpg" alt=""  />
+	    </a>   -->
+	    <a href="http://dxncer.co.uk/"> 
+ <img src="DXNCERHOME.jpg" alt="" />
+		    </a>
+<!--
+    <img src="DATESCROPDXNCER.jpg" alt="" /> -->
+</div>
+
+	
+	
+
+
+  </body>
+
+</html>
